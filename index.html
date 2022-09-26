@@ -376,6 +376,8 @@ Error message and password prompt
 
 <li>GIPF series</li>
 
+<li>GPG signing git commits</li>
+
 <li>Location</li>
 
 <li>RNG</li>
@@ -480,7 +482,7 @@ Error message and password prompt
 {"created":"20200414222832782","title":"$:/SiteTitle","type":"text/vnd.tiddlywiki","text":"Dave's Other Site","bag":"default","modified":"20220907175650314","revision":"0"},
 {"created":"20220907175841522","text":"hide","title":"$:/state/image-picker/system--2118859966","modified":"20220907175842690"},
 {"created":"20220907180354930","title":"$:/state/search/currentTab","text":"$:/plugins/danielo515/ContextPlugin/visualizer","modified":"20220907180354930"},
-{"title":"$:/state/showeditpreview","text":"no"},
+{"title":"$:/state/showeditpreview","text":"yes"},
 {"created":"20220907174236702","title":"$:/state/sidebar","text":"yes","modified":"20220907174240599"},
 {"created":"20220907181246452","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Settings","modified":"20220907190403640"},
 {"created":"20220907183829763","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/GitHub","modified":"20220907183829763"},
@@ -491,7 +493,7 @@ Error message and password prompt
 {"title":"$:/status/IsReadOnly","text":"no","bag":"default","revision":"1"},
 {"title":"$:/status/RequireReloadDueToPluginChange","text":"no"},
 {"title":"$:/status/UserName","text":"","bag":"default","revision":"1"},
-{"title":"$:/StoryList","text":"","list":"[[Abstract Games]] [[Abstract Friday]]"},
+{"title":"$:/StoryList","text":"","list":"[[GPG signing git commits]] [[Abstract Friday]]"},
 {"title":"$:/tags/EditToolbar","text":"","created":"20200519141000553","list":"$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save","modified":"20200521145647980","tags":"$:/giffmex/bigeditarea $:/giffmex/stroll"},
 {"title":"$:/tags/PageControls","type":"text/vnd.tiddlywiki","text":"","bag":"default","created":"20200127183739219","list":"$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions","modified":"20200808142340298","revision":"0","tags":"$:/giffmex/stroll"},
 {"title":"$:/tags/ViewTemplate","type":"text/vnd.tiddlywiki","text":"","bag":"default","created":"20200128153730498","list":"$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse","modified":"20200808142340653","revision":"0","tags":"$:/giffmex/stroll"},
@@ -509,6 +511,7 @@ Error message and password prompt
 {"text":"Abstract games:\n\n* typically have no theme, or a very minimal theme\n* have minimal or no [[RNG|RNG]]\n* often (but not always) have no hidden information\n\nThe quintessential abstract game is Go, but other great examples would be the [[GIPF|GIPF series]] games, [[Gigamic|Gigamic games]] games, [[Hive|https://boardgamegeek.com/boardgame/2655/hive]], [[Zendo|https://boardgamegeek.com/boardgame/6830/zendo]], Mancala, [[Pente|https://boardgamegeek.com/boardgame/1295/pente]], and all forms of chess.\n\nThere is a lot of material about abstract games at [[Abstract Games Magazine|https://www.abstractgames.org]].","created":"20220907174930481","title":"Abstract Games","modified":"20220907181704686"},
 {"created":"20220907180818669","text":"Gigamic is a maker of abstract games.\n\n[[Gigamic site|https://en.gigamic.com/board-game/modern-classics]]","title":"Gigamic games","modified":"20220907180854900"},
 {"created":"20220907180328732","text":"[[GIPF games on BoardGameGeek|https://boardgamegeek.com/boardgamefamily/10/series-gipf-project]]\n\n[[GIPF homepage|http://www.gipf.com/project_gipf/index.html]]\n\n[[Wikipedia|https://en.wikipedia.org/wiki/GIPF_project]]","title":"GIPF series","modified":"20220907180534203"},
+{"text":"After registering your signing key with `git` [[like this|https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key]], you can configure `git` to use it on all local repos with:\n\n```\ngit config commit.gpgsign true\n```\n\nThen after committing, you can see your signatures with:\n\n```\ngit log --show-signature --pretty=fuller\n```","tags":"gpg git technology workflow","title":"GPG signing git commits"},
 {"created":"20220907175537750","text":"Not posting the address here since this is a public website. If you don't have my address, ask for it.","title":"Location","modified":"20220907184504342"},
 {"created":"20220907175943467","text":"Short for \"random number generator\"; slang for \"randomness\".\n\n* dice rolling\n* deck shuffling\n* computer-generated randomness like the noise used to create new Minecraft worlds","title":"RNG","modified":"20220907180157403"}
 ]</script><div id="storeArea" style="display:none;"></div>
